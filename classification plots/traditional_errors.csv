@@ -1,0 +1,8 @@
+Dataset,Feature,Error
+Original (raw),GloVe,GloVe file not found: ./models/glove_arabic.txt
+pyarabic aggressive preprocessed,GloVe,GloVe file not found: ./models/glove_arabic.txt
+pyarabic hamza only preprocessed,GloVe,GloVe file not found: ./models/glove_arabic.txt
+pyarabic hamza tashkeel preprocessed,GloVe,GloVe file not found: ./models/glove_arabic.txt
+pyarabic punctuation only preprocessed,GloVe,GloVe file not found: ./models/glove_arabic.txt
+pyarabic tashkeel tatweel preprocessed,GloVe,GloVe file not found: ./models/glove_arabic.txt
+regex aggressive preprocessed,GloVe,GloVe file not found: ./models/glove_arabic.txt
