@@ -1,0 +1,42 @@
+[
+  {
+    "Architecture": "BiGRU",
+    "BestDataset": "pyarabic_punctuation_only_preprocessed",
+    "BestEmbeddingStrategy": "bow",
+    "CheckpointPath": "./outputs/qa_seq2seq_checkpoints/best_BiGRU.pt",
+    "BestValBLEU": 0.11277047465677996,
+    "BestValROUGE_L": 0.017330783709702383,
+    "TestBLEU": 0.09949584924124931,
+    "TestROUGE_L": 0.01286094224924012
+  },
+  {
+    "Architecture": "GRU",
+    "BestDataset": "Original_raw",
+    "BestEmbeddingStrategy": "bow",
+    "CheckpointPath": "./outputs/qa_seq2seq_checkpoints/best_GRU.pt",
+    "BestValBLEU": 0.05891297866747014,
+    "BestValROUGE_L": 0.006629530532367846,
+    "TestBLEU": 0.05020878110129408,
+    "TestROUGE_L": 0.005326344754536244
+  },
+  {
+    "Architecture": "LSTM",
+    "BestDataset": "pyarabic_hamza_only_preprocessed",
+    "BestEmbeddingStrategy": "bow",
+    "CheckpointPath": "./outputs/qa_seq2seq_checkpoints/best_LSTM.pt",
+    "BestValBLEU": 0.041859216311147356,
+    "BestValROUGE_L": 0.002340304452980509,
+    "TestBLEU": 0.03108143653459867,
+    "TestROUGE_L": 0.001773049645390071
+  },
+  {
+    "Architecture": "RNN",
+    "BestDataset": "pyarabic_punctuation_only_preprocessed",
+    "BestEmbeddingStrategy": "bow",
+    "CheckpointPath": "./outputs/qa_seq2seq_checkpoints/best_RNN.pt",
+    "BestValBLEU": 0.05006839948730475,
+    "BestValROUGE_L": 0.0033037732568249,
+    "TestBLEU": 0.04045617831752915,
+    "TestROUGE_L": 0.005319148936170213
+  }
+]
