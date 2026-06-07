@@ -1,0 +1,38 @@
+[
+  {
+    "Model": "GPT",
+    "BestDataset": "Tashkeel_Tatweel_Preprocessed",
+    "InputMode": "plain_question",
+    "CheckpointPath": "./outputs/qa_transformer_checkpoints/best_GPT.pt",
+    "BestValBLEU": 0.005706643752289542,
+    "BestValROUGE_L": 0.006174268500472768,
+    "BestValBERTScore_F1": 0.6722915172576904,
+    "TestBLEU": 0.005421691496164848,
+    "TestROUGE_L": 0.0021627528289218175,
+    "TestBERTScore_F1": 0.6726505756378174
+  },
+  {
+    "Model": "QWEN",
+    "BestDataset": "Tashkeel_Tatweel_Preprocessed",
+    "InputMode": "plain_question",
+    "CheckpointPath": "./outputs/qa_transformer_checkpoints/best_QWEN.pt",
+    "BestValBLEU": 0.006426800516312508,
+    "BestValROUGE_L": 0.0055884013327851655,
+    "BestValBERTScore_F1": 0.682630181312561,
+    "TestBLEU": 0.006210198820417485,
+    "TestROUGE_L": 0.004708733199424689,
+    "TestBERTScore_F1": 0.6832616925239563
+  },
+  {
+    "Model": "T5",
+    "BestDataset": "Tashkeel_Tatweel_Preprocessed",
+    "InputMode": "plain_question",
+    "CheckpointPath": "./outputs/qa_transformer_checkpoints/best_T5.pt",
+    "BestValBLEU": 0.00030510322535369646,
+    "BestValROUGE_L": 0.0003804451207913259,
+    "BestValBERTScore_F1": 0.5588383078575134,
+    "TestBLEU": 0.0004936071955147627,
+    "TestROUGE_L": 0.000446362148489808,
+    "TestBERTScore_F1": 0.5595118999481201
+  }
+]
